@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: solid;
+    padding: 10px 12px;
+}
+
+nav a:hover {
+    background: #575757;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 34px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hero {
+    background: url('file:///Users/ravindrakumarnerkar/modern-business-website%20/modern-business-website/image/hero1.png') no-repeat center center/cover;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 56px;
+    color: #fff;
+    background: #007BFF;
+    padding: 10px 20px;
+    text-decoration: solid;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+.hero-images {
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+    gap: 10px;                 /* space between images */
+}
+
+.hero-images img {
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+}
+nav ul {
+    list-style-position: inside; /* bullet inside */
+    text-align: center;          /* center text + bullet */
+    padding: 0;
+}
+
